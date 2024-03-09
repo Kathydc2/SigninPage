@@ -1,0 +1,86 @@
+body{
+    background-image: url(https://img.freepik.com/free-photo/different-cosmetics-scattered-bright-table_23-2148046992.jpg?w=1380&t=st=1709937316~exp=1709937916~hmac=fc40dc743880f494bd27a50f7d3a336bb7d6eafc242d71067403caaafd93d4af);
+    background-size: cover;
+    font-family:sans-serif; 
+
+}
+.EntireContainer{
+    /* border: solid red; */
+    margin-top: 12em;
+    height:60vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.ImgContainer{
+    /* Border: solid blue; */
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    width:99%
+    /* height: 40%; */
+
+}
+.RightContainer{
+    /* border: solid black; */
+    background-color:rgba(105, 209, 235, 0.425);
+    width:20%
+}
+.LeftContainer{
+    /* border: solid black; */
+    background-color: rgb(247, 205, 211);
+    width: 20%;
+}
+img{
+    width: 30%;
+}
+
+h1{
+    /* border:solid red; */
+    font-size: 22pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.InputContainer{
+    /* Border: solid green; */
+    display: flex;
+    justify-content: center;
+   
+}
+input{
+    width:60%;
+    margin-bottom: 1em;
+    
+}
+Label {
+    margin-left: 4.4em;
+}
+.ButtonContainer{
+    /* border:solid red; */
+    display: flex;
+    justify-content: center;
+}
+button{
+    Margin: 2em;
+    border-radius: 20%;
+    border: solid #891651;
+    background-color: #E1AFD1;
+    color: black;
+    text-align:center;
+    width:21%;
+    font-weight: 700;
+    font-size: 13pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+button:hover{
+    Margin: 2em;
+    border-radius: 20%;
+    border: solid rgba(105, 209, 235, 0.425);
+    background-color: #891651;
+    color: black;
+    text-align:center;
+    width:21%;
+    font-weight: 700;
+    font-size: 13pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
